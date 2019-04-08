@@ -1,0 +1,104 @@
+* {
+	padding: 0; margin: 0; list-style: none; border: 0
+}
+
+/* menu */
+.menu {
+	width: 600px;
+	height: 70px;
+	overflow: hidden;
+	margin: 20px
+}
+.menu ul li {
+	float: left
+}
+.menu ul li, .menu ul li a {
+	height: 70px
+}
+.menu ul li a {
+	display: block;
+	text-indent: -9999px;
+	background: url(menu.png) no-repeat;
+	transition: background 500ms
+}
+.menu ul li:nth-child(1) {
+	width: 161px
+}
+.menu ul li:nth-child(2) a {
+	width: 140px;
+	background-position: -161px 0
+}
+.menu ul li:nth-child(3) a {
+	width: 142px;
+	background-position: -301px 0
+}
+.menu ul li:nth-child(4) a {
+	width: 157px;
+	background-position: -443px 0
+}
+.menu ul li a:hover {
+	background-position: 0 -70px
+}
+.menu ul li:nth-child(2) a:hover {
+	background-position: -161px -70px
+}
+.menu ul li:nth-child(3) a:hover {
+	background-position: -301px -70px
+}
+.menu ul li:nth-child(4) a:hover {
+	background-position: -443px -70px
+}
+
+/* menu2 */
+.menu2 {
+	overflow: hidden;
+	margin: 20px
+}
+.menu2 ul li {
+	float: left;
+	margin-right: 10px
+}
+.menu2 ul li a {
+	display: block;
+	width: 100px;
+	height: 100px;
+	border: 1px solid #ddd;
+	border-bottom-color: #aaa;
+	text-align: center;
+	text-decoration: none;
+	font: bold 20px/100px Arial;
+	color: #111;
+	transition: all 500ms
+}
+.menu2 ul li a:hover {
+	background: #111;
+	color: #fff;
+	margin-top: 10px
+}
+
+
+.panel .panel-primary{
+  display: block;
+  box-shadow: 1px 1px 8px #999;
+    cursor: pointer;
+}
+.panel-footer.panel-custom {
+ display: block;
+    background-color: #fff;
+    
+   
+    box-shadow: 1px 1px 8px #999;
+    cursor: pointer;
+}
+
+.panel-body{
+
+   display: block;
+    background-color: #fff;
+    
+   
+    box-shadow: 1px 1px 8px #999;
+    cursor: pointer;
+}
+
+
